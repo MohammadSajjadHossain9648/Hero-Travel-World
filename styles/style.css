@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+/* common style */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Mulish", sans-serif;
+    max-width: 1280px;
+}
+:root{
+    --primary-white-color: rgb(255, 255, 255);
+    --primary-orange-color: rgb(255, 84, 0);
+    --primary-black-color: rgb(19, 19, 24);
+    --description-color1: rgba(19, 19, 24, 0.7);
+    --description-color2: rgb(90, 90, 93);
+    --header-input-color: rgba(19, 19, 24, 0.5);
+    --input-color: rgba(19, 19, 24, 0.3);
+}
+.header_title{
+    font-size: 3.52rem; /* 64px */
+    font-weight: 800;
+    color: var(--primary-white-color);
+}
+.title1{
+    font-size: 2.2rem; /* 40px */
+    font-weight: 800;
+    color: var(--primary-black-color);
+}
+.title2{
+    font-size: 1.32rem; /* 24px */
+    font-weight: 800;
+    color: var(--primary-black-color);
+}
+.header_description{
+    font-size: 0.88rem; /* 16px */
+    color: var(--primary-white-color);
+}
+.description1, .list1{
+    font-size: 0.88rem; /* 16px */
+    color: var(--description-color1);
+}
+.description2{
+    font-size: 0.88rem; /* 16px */
+    color: var(--description-color2);
+}
+.list2{
+    font-size: 0.88rem; /* 16px */
+    font-weight: 700;
+    color: var(--primary-black-color);
+}
+.price{
+    font-size: 1.1rem;  /* 20px */
+    font-weight: 800;
+    color: var(--primary-orange-color);
+}
+.btn{
+    font-size: 1.1rem;  /* 20px */
+    font-weight: 800;
+    color: var(--primary-white-color);
+    background-color: var(--primary-orange-color);
+    padding: 12px 21px;
+}
+.destination_img_title{
+    font-size: 1.54rem;  /* 28px */
+    font-weight: 800;
+    color: var(--primary-white-color);
+}
+
+/* mobile responsive design */
+@media screen and (max-width: 576px){
+    /* common style */
+    .header_title{
+        font-size: 1.21rem; /* 22px */
+    }
+    .title1, .title2{
+        font-size: 1.1rem;  /* 20px */
+    }
+    .header_description, .description1, .description2, .list1, .list2{
+        font-size: 0.77rem; /* 14px */
+    }
+    .price{
+        font-size: 0.88rem; /* 16px */
+    }
+    .btn{
+        font-size: 0.99rem;  /* 18px */
+        font-weight: 700;
+    }
+    .destination_img_title{
+        font-size: 1.1rem;  /* 20px */
+        font-weight: 700;
+    }
+}
+/* tablet responsive design */
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive design */
+@media screen and (max-width: 576px){
+
+}
+/* tablet responsive design */
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive design */
+@media screen and (max-width: 576px){
+
+}
+/* tablet responsive design */
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive design */
+@media screen and (max-width: 576px){
+
+}
+/* tablet responsive design */
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive design */
+@media screen and (max-width: 576px){
+
+}
+/* tablet responsive design */
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive design */
+@media screen and (max-width: 576px){
+
+}
+/* tablet responsive design */
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive design */
+@media screen and (max-width: 576px){
+
+}
+/* tablet responsive design */
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive design */
+@media screen and (max-width: 576px){
+
+}
+/* tablet responsive design */
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive design */
+@media screen and (max-width: 576px){
+
+}
+/* tablet responsive design */
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive design */
+@media screen and (max-width: 576px){
+
+}
+/* tablet responsive design */
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
