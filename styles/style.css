@@ -18,9 +18,9 @@
     --input-color: rgba(19, 19, 24, 0.3);
 }
 section{
-    margin: 40px 120px;
+    margin: 88px 120px;
 }
-.header_title{
+.banner_title{
     font-size: 3.52rem; /* 64px */
     font-weight: 800;
     color: var(--primary-white-color);
@@ -35,7 +35,7 @@ section{
     font-weight: 800;
     color: var(--primary-black-color);
 }
-.header_description{
+.banner_description{
     font-size: 0.88rem; /* 16px */
     color: var(--primary-white-color);
 }
@@ -63,6 +63,8 @@ section{
     color: var(--primary-white-color);
     background-color: var(--primary-orange-color);
     padding: 12px 21px;
+    border: none;
+    border-radius: 7px;
 }
 .destination_img_title{
     font-size: 1.54rem;  /* 28px */
@@ -77,13 +79,13 @@ section{
     section{
         margin: 20px;
     }
-    .header_title{
+    .banner_title{
         font-size: 1.21rem; /* 22px */
     }
     .title1, .title2{
         font-size: 1.1rem;  /* 20px */
     }
-    .header_description, .description1, .description2, .list1, .list2{
+    .banner_description, .description1, .description2, .list1, .list2{
         font-size: 0.77rem; /* 14px */
     }
     .price{
