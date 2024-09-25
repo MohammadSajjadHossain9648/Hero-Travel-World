@@ -17,6 +17,9 @@
     --header-input-color: rgba(19, 19, 24, 0.5);
     --input-color: rgba(19, 19, 24, 0.3);
 }
+section{
+    margin: 40px 120px;
+}
 .header_title{
     font-size: 3.52rem; /* 64px */
     font-weight: 800;
@@ -67,9 +70,13 @@
     color: var(--primary-white-color);
 }
 
+
 /* mobile responsive design */
 @media screen and (max-width: 576px){
     /* common style */
+    section{
+        margin: 20px;
+    }
     .header_title{
         font-size: 1.21rem; /* 22px */
     }
@@ -93,7 +100,10 @@
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
-
+    /* common style */
+    section{
+        margin: 40px 80px;
+    }
 }
 
 
