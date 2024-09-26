@@ -45,12 +45,10 @@ section{
 .description1, .list1{
     font-size: 0.88rem; /* 16px */
     color: var(--description-color1);
-    width: 85%;
 }
 .description2{
     font-size: 0.88rem; /* 16px */
     color: var(--description-color2);
-    width: 85%;
 }
 nav ul{
     width: 40%;
@@ -331,6 +329,8 @@ nav ul li a:hover{
 
 
 
+
+/* tours section */
 
 /* mobile responsive design */
 @media screen and (max-width: 576px){
