@@ -154,6 +154,12 @@ nav ul li a:hover{
     .banner_description, .description1, .description2, .list1, .list2{
         width: 95%;
     }
+    .description1{
+        padding:16px 0
+    }
+    .list1, .list2{
+        padding: 10px 0;
+    }
     nav ul{
         width: 50%;
     }
@@ -375,7 +381,16 @@ nav ul li a:hover{
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
-
+    .tours{
+        gap: 30px;
+    }
+    .tours .tours_container .btn{
+        margin-top: 6px;
+    }
+    .tours .tours_img_container{
+        height: 449px;
+        width: 400px;
+    }
 }
 
 
