@@ -364,7 +364,14 @@ nav ul li a:hover{
 }
 /* mobile responsive design */
 @media screen and (max-width: 576px){
-
+    .tours{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    .tours .tours_img_container{
+        height: 300px;
+        width: auto;
+    }
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
