@@ -42,13 +42,15 @@ section{
     margin: 21px auto 42px;
     width: 85%;
 }
-.description1, .list1{
+.description1{
     font-size: 0.88rem; /* 16px */
     color: var(--description-color1);
+    padding: 21px 0;
 }
 .description2{
     font-size: 0.88rem; /* 16px */
     color: var(--description-color2);
+    padding: 14px 0;
 }
 nav ul{
     width: 40%;
@@ -66,10 +68,16 @@ nav ul li a{
 nav ul li a:hover{
     color: var(--primary-orange-color);
 }
+.list1{
+    font-size: 0.88rem; /* 16px */
+    color: var(--description-color1);
+    padding: 14px 0;
+}
 .list2{
     font-size: 0.88rem; /* 16px */
     font-weight: 700;
     color: var(--primary-black-color);
+    padding: 14px 0;
 }
 .price{
     font-size: 1.1rem;  /* 20px */
@@ -330,8 +338,30 @@ nav ul li a:hover{
 
 
 
-/* tours section */
 
+
+
+/* tours section */
+.tours{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 47px;
+}
+.tours .tours_container ul{
+    width: 80%;
+    padding: 0 20px;
+}
+.tours .tours_container .btn{
+    margin-top: 14px;
+}
+.tours .tours_img_container{
+    height: 449px;
+    width: 486px;
+}
+.tours .tours_img_container img{
+    height: 100%;
+    width: 100%;
+}
 /* mobile responsive design */
 @media screen and (max-width: 576px){
 
