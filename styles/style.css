@@ -230,6 +230,7 @@ nav ul li a:hover{
 }
 .header .banner .banner_container_form .btn{
     width: 145px;
+    height: 47px;
     font-weight: 700;
     display: flex;
     justify-content: space-around;
@@ -296,9 +297,26 @@ nav ul li a:hover{
         margin-right: 5px;
     }
 }
+
+
+
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
-
+    .header{
+        margin: 40px 80px;
+    }
+    .header .banner .banner_container_form{
+        gap: 14px;
+    }
+    .header .banner .banner_container_form select{
+        width: 130px;
+    }
+    .header .banner .banner_container_form input{
+        width: 100px;
+    }
+    .header .banner .banner_container_form .btn{
+        width: 130px;
+    }
 }
 
 
