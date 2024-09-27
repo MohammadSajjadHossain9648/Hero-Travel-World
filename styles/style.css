@@ -453,8 +453,9 @@ nav ul li a:hover{
 }
 /* mobile responsive design */
 @media screen and (max-width: 576px){
-    .destination .destination_header{
+    .destination .destination_header, .choose .choose_header{
         width: 90%;
+        margin: 0 auto;
     }
     .destination img{
         width: 100%;
@@ -517,7 +518,14 @@ nav ul li a:hover{
 }
 /* mobile responsive design */
 @media screen and (max-width: 576px){
-
+    .choose .choose_container{
+        grid-template-areas: "item1"
+                             "item2"
+                             "item3";
+    }
+    .choose .choose_container .choose_container_card .title2{
+        padding: 14px 0 0;
+    }
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
