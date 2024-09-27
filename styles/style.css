@@ -733,7 +733,7 @@ nav ul li a:hover{
 }
 .newsletter .newsletter_container{
     border: 1px solid var(--primary-orange-color);
-    border-radius: 7px;
+    border-radius: 14px;
     padding: 35px;
 }
 .newsletter .newsletter_container .newsletter_container_header{
@@ -750,7 +750,7 @@ nav ul li a:hover{
 }
 .newsletter .newsletter_container form input{
     padding: 14px 18px;
-    border-radius: 7px;
+    border-radius: 14px;
     border: none;
     background-color: rgba(19, 19, 24, 0.05);
     color: rgba(19, 19, 24, 0.3);
@@ -784,7 +784,6 @@ nav ul li a:hover{
 @media screen and (max-width: 576px){
     .newsletter{
         grid-template-columns: repeat(1, 1fr);
-        /* gap: 21px; */
     }
     .newsletter .newsletter_container{
         padding: 21px;
@@ -807,7 +806,22 @@ nav ul li a:hover{
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
-
+    .newsletter{
+        grid-template-columns: 0.9fr 1.1fr;
+        gap: 15px;
+    }
+    .newsletter .newsletter_container{
+        padding: 21px;
+    }
+    .newsletter .newsletter_img_container .newsletter_box{
+        width: 225px;
+    }
+    .newsletter .newsletter_img_container .newsletter_box .newsletter_box_description{
+        font-size: 0.99rem; /* 18px */
+    }
+    .newsletter .newsletter_img_container .newsletter_box .newsletter_box_title{
+        font-size: 1.32rem; /* 24px */
+    }
 }
 
 
