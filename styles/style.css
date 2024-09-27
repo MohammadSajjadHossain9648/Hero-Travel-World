@@ -52,6 +52,23 @@ section{
     color: var(--description-color2);
     padding: 14px 0;
 }
+.brand_container{
+    display: flex;
+    align-items: center;
+}
+.brand_container .brand_logo{
+    height: 45px;
+    width: 50px;
+    margin-right: 10px;
+}
+.brand_container .brand_title{
+    font-size: 1.98rem; /* 36px */
+    font-weight: 800;
+    color: var(--primary-black-color);
+}
+.brand_container #brand_title_text{
+    color: var(--primary-orange-color);
+}
 nav ul{
     width: 40%;
     display: flex;
@@ -108,6 +125,7 @@ nav ul li a:hover{
 }
 
 
+
 /* mobile responsive design */
 @media screen and (max-width: 576px){
     /* common style */
@@ -123,6 +141,13 @@ nav ul li a:hover{
     .banner_description, .description1, .description2, .list1, .list2{
         font-size: 0.77rem; /* 14px */
         width: 100%;
+    }
+    .brand_container .brand_logo{
+        height: 30px;
+        width: 30px;
+    }
+    .brand_container .brand_title{
+        font-size: 1.16rem; /* 21px */
     }
     nav ul{
         width: 30%;
@@ -172,6 +197,10 @@ nav ul li a:hover{
     .list1, .list2{
         padding: 10px 0;
     }
+    .brand_container .brand_logo{
+        height: 40px;
+        width: 40px;
+    }
     nav ul{
         width: 50%;
     }
@@ -203,13 +232,6 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.header nav .header_brand{
-    display: flex;
-    align-items: center;
-}
-.header nav .header_brand img{
-    margin-right: 10px;
 }
 .header nav #dropdown_btn, .dropdown_btn_icon{
     display: none;
@@ -321,8 +343,6 @@ nav ul li a:hover{
         margin-right: 5px;
     }
 }
-
-
 
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
@@ -836,6 +856,9 @@ nav ul li a:hover{
 
 
 
+
+
+/* footer section */
 
 /* mobile responsive design */
 @media screen and (max-width: 576px){
