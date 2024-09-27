@@ -638,7 +638,7 @@ nav ul li a:hover{
         margin-right: 14px;
     }
     .deals .deals_btn{
-        margin: 21px auto;
+        display: none;
     }
 }
 /* tablet responsive design */
@@ -706,7 +706,10 @@ nav ul li a:hover{
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
-
+    .package{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
 }
 
 
