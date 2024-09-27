@@ -911,7 +911,9 @@ nav ul li a:hover{
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
-
+    .footer{
+        padding: 76px 160px;
+    }
 }
 
 
