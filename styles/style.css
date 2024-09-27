@@ -606,7 +606,33 @@ nav ul li a:hover{
 }
 /* mobile responsive design */
 @media screen and (max-width: 576px){
-
+    .deals .deals_odd_container{
+        height: 480px;
+        background-size: 250% 100%;
+    }
+    .deals .deals_even_container{
+        height: 480px;
+        background-size: 250% 100%;
+        margin: 14px 0;
+    }
+    .deals .deals_odd_box{
+        top: 43%;
+        left: 15px;
+    }
+    .deals .deals_even_box{
+        top: 43%;
+        left: 15px;
+    }
+    .deals .deals_container_box{
+        width: 85%;
+        padding: 20px;
+    }
+    .deals .deals_container_box .deals_box_header{
+        margin-bottom: 14px;
+    }
+    .deals .deals_container_box .deals_box_header {
+        margin-right: 14px;
+    }
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
