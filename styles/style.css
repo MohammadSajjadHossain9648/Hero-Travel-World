@@ -674,21 +674,16 @@ nav ul li a:hover{
 
 /* package section */
 .package{
-    display: flex;
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
     gap: 40px;
 }
-.package .package_container{
-    width: 45%;
-}
 .package .package_container ul{
-    width: 90%;
+    width: 80%;
     padding: 0 20px;
 }
 .package .package_container .btn{
     margin-top: 14px;
-}
-.package .package_video_container{
-    width: 55%;
 }
 .package .package_video_container iframe{
     height: 100%;
