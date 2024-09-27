@@ -604,6 +604,10 @@ nav ul li a:hover{
     width: 18px;
     margin-right: 6px;
 }
+.deals .deals_btn{
+    display: block;
+    margin: 42px auto;
+}
 /* mobile responsive design */
 @media screen and (max-width: 576px){
     .deals .deals_odd_container{
@@ -633,6 +637,9 @@ nav ul li a:hover{
     .deals .deals_container_box .deals_box_header {
         margin-right: 14px;
     }
+    .deals .deals_btn{
+        margin: 21px auto;
+    }
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
@@ -645,6 +652,9 @@ nav ul li a:hover{
     .deals .deals_container_box{
         width: 50%;
         padding: 24px;
+    }
+    .deals .deals_btn{
+        margin: 32px auto;
     }
 }
 
