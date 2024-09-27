@@ -692,7 +692,17 @@ nav ul li a:hover{
 }
 /* mobile responsive design */
 @media screen and (max-width: 576px){
-
+    .package{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 21px;
+    }
+    .package .package_container ul{
+        width: 95%;
+    }
+    .package .package_video_container{
+        height: 250px;
+        width: auto;
+    }
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
