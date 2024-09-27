@@ -492,6 +492,9 @@ nav ul li a:hover{
 
 
 
+
+
+
 /* choose us section */
 .choose .choose_container{
     display: grid;
@@ -548,8 +551,59 @@ nav ul li a:hover{
 
 
 
-/* deals section */
 
+
+
+/* deals section */
+.deals .deals_odd_container{
+    height: 440px;
+    background-image: url("../images/deals1.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 14px;
+    position: relative;
+}
+.deals .deals_even_container{
+    height: 440px;
+    background-image: url("../images/deals2.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 14px;
+    margin: 21px 0;
+    position: relative;
+}
+.deals .deals_odd_box{
+    position: absolute;
+    top: 13%;
+    right: 4%;
+}
+.deals .deals_even_box{
+    position: absolute;
+    top: 10%;
+    left: 4%;
+}
+.deals .deals_container_box{
+    width: 400px;
+    border: 2px solid var(--primary-white-color);
+    border-radius: 14px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 44px 60px 44px 44px;
+}
+.deals .deals_container_box .deals_box_header{
+    margin-bottom: 21px;
+    display: flex;
+}
+.deals .deals_container_box .deals_box_header .deals_header_content{
+    display: flex;
+    align-items: center;
+    margin-right: 21px;
+}
+.deals .deals_container_box .deals_box_header .deals_header_content img{
+    height: 18px;
+    width: 18px;
+    margin-right: 6px;
+}
 /* mobile responsive design */
 @media screen and (max-width: 576px){
 
