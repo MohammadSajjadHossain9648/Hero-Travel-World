@@ -413,10 +413,11 @@ nav ul li a:hover{
 
 
 /* destination section */
-.destination .destination_header{
+.destination .destination_header, .choose .choose_header{
     width: 565px;
     text-align: center;
-    margin: 0 auto;
+    margin: 21px auto;
+    padding-bottom: 21px;
 }
 .destination img{
     width: 100%;
@@ -438,13 +439,12 @@ nav ul li a:hover{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 21px;
-    margin: 21px 0;
 }
 .destination .destination_container_row2{
     display: grid;
     grid-template-columns: 1fr 1.2fr 0.8fr;
     gap: 21px;
-    margin-bottom: 21px;
+    margin: 21px 0;
 }
 .destination .destination_container_row3{
     display: grid;
@@ -490,7 +490,31 @@ nav ul li a:hover{
 
 
 /* choose us section */
-
+.choose .choose_container{
+    display: grid;
+    grid-template-areas: "item1 item1 item2 item2"
+                         "empt item3 item3 empt2";
+    gap: 21px;
+}
+.choose .choose_container .grid1{
+    grid-area: item1;
+    background-color: rgba(251, 181, 99, 0.2);
+}
+.choose .choose_container .grid2{
+    grid-area: item2;
+    background-color: rgba(41, 206, 246, 0.2);
+}
+.choose .choose_container .grid3{
+    grid-area: item3;
+    background-color: rgba(233, 68, 68, 0.2);
+}
+.choose .choose_container .choose_container_card{
+    padding: 28px;
+    border-radius: 14px;
+}
+.choose .choose_container .choose_container_card .title2{
+    padding: 28px 0 14px;
+}
 /* mobile responsive design */
 @media screen and (max-width: 576px){
 
